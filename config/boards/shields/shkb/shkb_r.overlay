@@ -63,7 +63,7 @@
 
         scroll_layer {
             layers = <6>;
-            input-processors = <&scroll_transform INPUT_TRANSFORM_Y_INVERT &scroll_mapper &scroll_scaler 1 6>;
+            input-processors = <&scroll_transform INPUT_TRANSFORM_Y_INVERT &scroll_mapper &scroll_scaler 1 4>;
         };
     };
 };
