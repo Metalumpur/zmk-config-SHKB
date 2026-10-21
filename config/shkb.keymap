@@ -82,7 +82,16 @@
         };
     };
 
-    keymap: keymap {
+    keymap: combos {
+        compatible = "zmk,combos";
+
+        ScrollLayer {
+            bindings = <&mo 6>;
+            key-positions = <36 37>;
+        };
+    };
+
+    keymap {
         compatible = "zmk,keymap";
 
         /* ---------------------------------------------------------------
